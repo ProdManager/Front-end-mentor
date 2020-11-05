@@ -1,0 +1,235 @@
+body {
+    background-color: rgba(240,240,240);
+    width: 1358px;
+    left: 0;
+    top: 0;
+    font-family: 'Spartan', sans-serif;
+    overflow: hidden;
+}
+div.body p.title br {
+    display: block;
+    margin-top: -4px;
+    content: "";
+    line-height: -4px;
+}
+div.bullet {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: hsl(191,51%,61%);
+    opacity: .7;
+}
+div.bulletOne {
+    top: 140px;
+    right: 34px;
+}
+div.bulletTwo {
+    top: 140px;
+    right: 68px;
+}
+div.bulletThree {
+    top: 170px;
+    right: 68px;
+}
+div.bulletFour {
+    top: 170px;
+    right: 34px; 
+}
+div.bulletFive {
+    top: 200px;
+    right: 68px;
+}
+div.bulletSix {
+    top: 200px;
+    right: 34px;
+}
+div.bulletSeven {
+    top: 230px;
+    right: 68px;
+}
+div.bulletEight {
+    top: 230px;
+    right: 34px;
+}
+div.bulletNine {
+    top: 260px;
+    right: 68px;
+}
+div.bulletTen {
+    top: 260px;
+    right: 34px;
+}
+div.bulletEleven {
+    top: 290px;
+    right: 34px;
+}
+div.bulletTwelve {
+    top: 290px;
+    right: 68px;
+}
+/* div.bullet {
+    top: +30px;
+    right: +34px / -34px; Depends from where you work it
+}*/
+div.body {
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 1200px;
+    border-radius: 2px;
+    /* box-shadow: 1px 1px 12px 1px rgb(143, 143, 143), -1px -1px 12px 1px rgba(230,230,230); */
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-color: #fff;
+    top: 60px;
+    left: 85px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+div.body p.title {
+    display: block;
+    position: absolute;
+    font-size: 35px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    top: 72px;
+    left: 93px;
+}
+div.body p.desc br {
+    display: block;
+    margin-top: 6px;
+    content: "";
+    line-height: 6px;
+}
+div.body p.desc {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(154,152,155);
+    top: 216px;
+    left: 93px;
+    letter-spacing: -1px;
+}
+div.body div.star {
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(247,242,248);
+}
+div.body div.starOne {
+    top: 112px;
+    left: 618px;
+}
+div.body div.starTwo {
+    top: 171px;
+    left: 670px;
+}
+div.body div.starThree {
+    top: 230px;
+    left: 722px;
+}
+/* div.star {
+   top: +49px;
+   left: +32px;
+}*/
+div.body div.star img.star {
+    display: block;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 13px;
+}
+div.body div.star img.starOne {
+    left: 17px;
+}
+div.body div.star img.starTwo {
+    left: 35px;
+}
+div.body div.star img.starThree {
+    left: 53px;
+}
+div.body div.star img.starFour {
+    left: 71px;
+}
+div.body div.star img.starFive {
+    left: 89px;
+}
+/* Stars Left: +18px; */
+div.body div.star p.rated {
+    display: block;
+    position: absolute;
+    font-size: 9px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    top: 7px;
+    left: 110px;
+    letter-spacing: 0;
+}
+div.body div.costumer {
+    display: block;
+    position: absolute;
+    height: 158px;
+    width: 248px;
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 5px;
+}
+div.body div.colton {
+    bottom: 74px;
+    left: 92px;
+}
+div.body div.irene {
+    bottom: 62px;
+    left: 380px;
+}
+div.body div.anne {
+    bottom: 50px;
+    left: 668px;
+}
+/* div.costumer {
+    bottom: -12px;
+    left: +273px; 
+} */
+div.body div.costumer img.costumer {
+    display: block;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+div.body div.costumer p.name {
+    display: block;
+    position: absolute;
+    font-size: 9px;
+    font-weight: 700;
+    color: rgba(255,255,255);
+    top: 12px;
+    left: 60px;
+}
+div.body div.costumer p.stats {
+    display: block;
+    position: absolute;
+    font-size: 9px;
+    color: hsl(315,29%,49%);
+    font-weight: 500;
+    top: 27px;
+    left: 60px;
+}
+div.body div.costumer p.desc {
+    display: block;
+    position: absolute;
+    font-size: 7px;
+    color: rgb(233,198,231);
+    font-weight: 500;
+    top: 60px;
+    left: 12px;
+    word-spacing: .3px;
+    letter-spacing: -.2px;
+}
+/* FONTS BANK */
+/* font-family: 'Spartan', sans-serif; FOR "BODY", font-weight: 400,500,700; */
